@@ -1,16 +1,68 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📸 Screenshot
 
-Currently, two official plugins are available:
+![Digital Business Card Screenshot](screenshots/app-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A small React + Vite project that renders a personal digital business card for me. It demonstrates a simple component structure, uses Vite for tooling, and includes basic ESLint configuration.
 
-## React Compiler
+**Highlights**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Profile card** with name, role, portfolio link and an email button.
+- Small component-based layout: `Info`, `About`, `Interests`, `Footer`.
+- Built with React and Vite for fast dev iteration.
 
-## Expanding the ESLint configuration
+**Tech Stack**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- ESLint (basic config)
+
+**Quick Links**
+
+- File: [README.md](README.md#L1)
+- Entry: [src/main.jsx](src/main.jsx#L1)
+- App component: [src/App.jsx](src/App.jsx#L1)
+- Profile content: [src/components/Info.jsx](src/components/Info.jsx#L1)
+
+**Project structure (important files)**
+
+- `index.html`: app container and metadata
+- `src/main.jsx`: React entry and root render
+- `src/App.jsx`: page layout and component composition
+- `src/components/Info.jsx`: profile image, name, role, portfolio link, and email button
+- `src/components/About.jsx`, `src/components/Interests.jsx`, `src/components/Footer.jsx`: page sections
+- `src/img/profile_pic.jpeg`: profile image used by the card
+
+## Run locally
+
+Install dependencies and start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+Lint the project:
+
+```bash
+npm run lint
+```
+
+## Editing content
+
+- Update personal details (name, title, portfolio link, email) in [src/components/Info.jsx](src/components/Info.jsx#L1).
+- Swap the profile image at `src/img/profile_pic.jpeg`.
+
+## Notes and next steps
+
+- This is a minimal demo; feel free to add responsive styles, tests, or a small contact form.
+
+If you want, I can (a) add a more detailed contribution/dev guide, (b) wire up a contact form, or (c) run the dev server and verify the app locally — tell me which.
