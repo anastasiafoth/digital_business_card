@@ -1,42 +1,124 @@
 #root {
-  max-width: 1280px;
+  max-width: 317px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem 6.5rem;
   text-align: center;
+  background-color: #c59686;
+  color: #70554c;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(../src/img/1188966_794.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+h1 {
+  color: #c59686;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  font-family: "Righteous", sans-serif;
+  color: #70554c;
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 3em;
+  line-height: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 1.2em;
 }
 
-.card {
-  padding: 2em;
+h3 {
+  font-size: 1em;
+  margin: 5px auto;
 }
 
-.read-the-docs {
-  color: #888;
+.website-link {
+  font-size: 0.8em;
+  margin: 0 0 15px 0;
+  cursor: pointer;
+}
+
+
+.email-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35px;
+  gap: 5px;
+  color: white;
+  background-color: #70554c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.email-btn:hover,
+.email-btn:active {
+  background-color: #ff8369;
+}
+
+.email-btn:focus,
+.email-btn:focus-visible {
+  outline: 1px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.email-icon {
+  width: 20px;
+  height: auto;
+}
+
+
+.info {
+  margin: 34px auto;
+}
+
+h2,
+.text {
+  text-align: left;
+}
+
+.text {
+  font-size: 0.9em;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 8px 0 25px 0;
+  color: #000000;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: .5rem;
+  background-color: #70554c;
+  border-radius: 10px;
+}
+
+.social-media-icon {
+  width: 55px;
+  cursor: pointer;
+  height: auto;
+  fill: white;
+}
+
+.social-media-icon:hover,
+.social-media-icon:active {
+  fill: #ffcc3e;
+  transition: fill 0.3s ease,transform 0.3s ease;
+  transform: scale(1.15)
 }
