@@ -1,39 +1,30 @@
 #root {
   max-width: 317px;
   margin: 0 auto;
-  padding: 5rem 6.5rem;
+  padding: 4rem 4rem;
   text-align: center;
   background-color: #c59686;
   color: #70554c;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
 
-  background-image: url(../src/img/1188966_794.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+img {
+  width:225px;
+  margin:0;
 }
 
 h1 {
-  color: #c59686;
-}
-h2 {
-  font-family: "Righteous", sans-serif;
-  color: #70554c;
-  margin: 0;
-}
-
-h1 {
+  color: #ffffff;
   font-size: 3em;
   line-height: 1;
 }
 
 h2 {
+  font-family: "Righteous", sans-serif;
+  color: #ffffff;
+  margin: 0;
   font-size: 1.2em;
 }
 
@@ -43,11 +34,11 @@ h3 {
 }
 
 .website-link {
-  font-size: 0.8em;
+  color: #000000;
+  font-size: 0.9em;
   margin: 0 0 15px 0;
   cursor: pointer;
 }
-
 
 .email-btn {
   display: flex;
@@ -67,7 +58,7 @@ h3 {
 
 .email-btn:hover,
 .email-btn:active {
-  background-color: #ff8369;
+  background-color: #c59686;
 }
 
 .email-btn:focus,
@@ -118,7 +109,7 @@ footer {
 
 .social-media-icon:hover,
 .social-media-icon:active {
-  fill: #ffcc3e;
+  fill: #c59686;
   transition: fill 0.3s ease,transform 0.3s ease;
   transform: scale(1.15)
 }

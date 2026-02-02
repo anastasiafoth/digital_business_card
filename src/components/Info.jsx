@@ -1,9 +1,17 @@
 export default function Info(){
     return (
-      <section>
+      <>
+        <img src="../src/img/profile_pic.jpeg" />
         <h1>Anastasia Foth</h1>
         <h3>Full Stack Developer</h3>
-        <p className="website-link">https://anastasiafoth.github.io/</p>
+        <p
+          className="website-link"
+          onClick={() =>
+            (window.location.href = "https://anastasiafoth.github.io/")
+          }
+        >
+          Portfolio
+        </p>
 
         <button
           className="email-btn"
@@ -23,6 +31,6 @@ export default function Info(){
           </svg>
           Email
         </button>
-      </section>
+      </>
     );
 }
