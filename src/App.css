@@ -54,23 +54,28 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+.email-btn:hover .email-icon {
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
+  fill: #c59686;
+}
 
 .email-btn:hover,
 .email-btn:active {
-  background-color: #c59686;
-}
-
-.email-btn:focus,
-.email-btn:focus-visible {
-  outline: 1px solid #ffffff;
-  outline-offset: 2px;
+  color:#c59686;
+  background-color: #ffffff;
 }
 
 .email-icon {
+  fill:#ffffff;
   width: 20px;
   height: auto;
 }
 
+.email-icon:hover,
+.email-icon:active {
+  fill: #70554c;
+}
 
 .info {
   margin: 34px auto;
@@ -98,6 +103,7 @@ footer {
   background-color: #70554c;
   border-radius: 10px;
 }
+
 
 .social-media-icon {
   width: 55px;

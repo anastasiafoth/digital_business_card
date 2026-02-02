@@ -2,7 +2,7 @@
 
 ## 📸 Screenshot
 
-![Digital Business Card Screenshot](screenshots/app-screenshot.png)
+![Digital Business Card Screenshot](src/screenshots/app-screenshot.png)
 
 A small React + Vite project that renders a personal digital business card for me. It demonstrates a simple component structure, uses Vite for tooling, and includes basic ESLint configuration.
 
